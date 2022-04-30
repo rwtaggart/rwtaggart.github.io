@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "PyCon US 2022"
-date:   2022-04-30 16:30:00 -0500
-categories: jekyll update
+date:   2022-04-30 16:30:00 -0400
+categories: conference
 ---
 
 ***Leveraging a custom CPython data model for high-performance microprocessor design***
