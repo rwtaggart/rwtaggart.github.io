@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<head>
+  <style>
+    img {
+      /* float: left; */
+      /* padding-right: 19px; */
+      width: 200px;
+      border-radius: 50%;
+    }
+    /* p {
+      float: left;
+      width: 70%;
+    } */
+    section.bio {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      column-gap: 19px;
+      /* flex-wrap: nowrap; */
+    }
+
+    @media all and (max-width: 800px) {
+      img {
+        width: 100px;
+      }
+    }
+
+    @media all and (max-width: 500px) {
+      img {
+        width: 50px;
+      }
+    }
+  </style>
+</head>
+
+<section class="bio">
+  <img src="{{page.bio_profile_img}}"/>
+  <article>
+    {{content}}
+  </article>
+</section>
+
+<!-- <aside> -->
+<!-- </aside> -->
