@@ -26,13 +26,15 @@ In sandbox, run:
 
 ## References
 These were useful while building this site
+- https://docs.github.com/en/pages/quickstart
 - https://www.markdownguide.org/cheat-sheet/
-- https://github.com/jekyll/minima
-- https://github.com/jekyll/jekyll-sass-converter
 
 - https://jekyllrb.com/
 - https://jekyllrb.com/docs/collections/
 - https://shopify.github.io/liquid/basics/operators/
 
 - Front matter multi-line:  
+
+- https://github.com/jekyll/minima
+- https://github.com/jekyll/jekyll-sass-converter
   https://stackoverflow.com/a/6750911/13491265
