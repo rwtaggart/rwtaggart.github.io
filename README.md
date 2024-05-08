@@ -17,6 +17,7 @@ In sandbox, run:
 ```sh
 > jekyll serve -l
 ```
+> ***Note:*** Restart `jekyll serve` after modifying `_config.yml`.
 
 ## Create a new site
 ```sh
@@ -31,3 +32,7 @@ These were useful while building this site
 
 - https://jekyllrb.com/
 - https://jekyllrb.com/docs/collections/
+- https://shopify.github.io/liquid/basics/operators/
+
+- Front matter multi-line:  
+  https://stackoverflow.com/a/6750911/13491265
