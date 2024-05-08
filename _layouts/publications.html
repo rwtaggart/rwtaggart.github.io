@@ -1,0 +1,12 @@
+---
+layout: page
+---
+<!-- List static external links to publications here -->
+{{content}}
+
+<!-- Then automatically render local sites in ./_publications dir -->
+<ul>
+    {% for pub in site.publications %}
+        <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a></li>
+    {% endfor %}
+</ul>
