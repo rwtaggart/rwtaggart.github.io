@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "PyCon US 2022"
+title:  "Leveraging a custom CPython data model for high-performance microprocessor design"
+conference:  "PyCon US 2022"
 date:   2022-04-30 16:30:00 -0400
 categories: conference
 ---
+[Back to "My Publications"](/pubs)
 
-***Leveraging a custom CPython data model for high-performance microprocessor design***
+### Leveraging a custom CPython data model for high-performance microprocessor design
 [Presentation description](https://us.pycon.org/2022/schedule/presentation/56/)
 – [speaker bio](https://us.pycon.org/2022/speaker/profile/60/index.html)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mbssZpB7U50?si=6toeWhYZGy4h161k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
