@@ -63,3 +63,5 @@ plugins:
 collections:
   publications:
     output: true
+  patents:
+    output: false
