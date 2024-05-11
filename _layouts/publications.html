@@ -24,7 +24,7 @@ layout: page
 
 <h3>US Patents</h3>
 <div class="patents">
-    {% for patent in site.patents %}
+    {% for patent in site.data.patents %}
         <span>
             <a class="patent_title" href="{{ patent.url }}">{{patent.title}}</a>
             <br/> 
@@ -40,7 +40,8 @@ layout: page
 <h3>Conference publications</h3>
 <!-- Then automatically render local sites in ./_publications dir -->
 <ul>
-    {% for pub in site.publications %}
+    {% assign all_pubs = site.data.publications | concat: site.publications %}
+    {% for pub in all_pubs %}
         {% if pub.ext_url == "none" %}
             <li>{{pub.title}} – {{pub.conference}}</li>
         {% elsif pub.external and pub.ext_url %}
