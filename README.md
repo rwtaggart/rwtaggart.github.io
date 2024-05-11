@@ -34,7 +34,11 @@ These were useful while building this site
 - https://shopify.github.io/liquid/basics/operators/
 
 - Front matter multi-line:  
+  https://stackoverflow.com/a/6750911/13491265
 
 - https://github.com/jekyll/minima
 - https://github.com/jekyll/jekyll-sass-converter
-  https://stackoverflow.com/a/6750911/13491265
+- https://jekyllrb.com/docs/assets/#sassscss
+
+- https://m2.material.io/design/color/the-color-system.html
+

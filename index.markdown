@@ -10,12 +10,17 @@ Check out these references!
 <div class="list">
   {% for page in site.pages %}
     {% if page.title %}
-      <div class="item">
-        <a href="{{ page.url | relative_url }}">{{page.title}}</a>
-        {% if page.description %}
-          <span>– {{page.description}}</span>
-        {% endif %}
-      </div>
+        <a href="{{ page.url | relative_url }}" class="tile">
+          <div class="icolumn">
+            {% if page.thumbnail_img %}
+              <img src="{{page.thumbnail_img}}" class="preview"/>
+            {% endif %}
+            {{page.title}}
+            {% if page.description %}
+              <span>– {{page.description}}</span>
+            {% endif %}
+          </div>
+        </a>
     {% endif %}
   {% endfor %}
 </div>

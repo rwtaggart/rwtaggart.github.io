@@ -3,6 +3,7 @@ layout: bio
 title: About Me
 permalink: /about/
 bio_profile_img: /assets/images/bio_portrait.jpeg
+thumbnail_img: /assets/images/bio_portrait.jpeg
 ---
 
 Richard is a Senior Manager of the IBM Z pre-silicon microprocessor verification team. He pursued a career as a Software Engineer for nearly a decade before taking on a management role in 2021. He currently resides in the Hudson Valley of New York, and he works at the IBM Poughkeepsie site.
