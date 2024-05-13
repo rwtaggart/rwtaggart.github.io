@@ -4,32 +4,50 @@
  * https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
  */
 
-div.list {
+.tilelist {
+  padding-top: 5%;
   display: flex;
   // flex-direction: row;
   flex-flow: row wrap;
-  align-items: center;
+  // align-items: center;
+  align-items: stretch;
+  justify-content: space-around;
+  // align-content: stretch;
   gap: 19px;
   /* padding-left: 100px; */
 }
 
-div.icolumn {
-  display: inline-flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  gap: 5px;
-}
-
 .tile {
-  font-size: 1.5rem;
-  background-color: #EEEEEE;
-  border: 0.5px solid #616161;
-  border-radius: 33.333%;
+  // font-size: 1.5rem;
+  flex: 1;
+  // background-color: #EEEEEE;
+  background-color: #fff;
+  // border: 0.5px solid #616161;
+  // border-radius: 33.333%;
+  border-radius: 10%;
+  // box-shadow: 10px 10px 10px 10px, 20px 20px 20px 20px red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 2em;
   // min-width: 200px;
   // min-height: 200px;
   text-align: center;
   vertical-align: bottom;
+}
+
+.tile:hover {
+  color: #1565C0;
+  // box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 8px 0;
+  text-decoration: none;
+}
+
+.icolumn {
+  // flex-grow: 1;
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 img.preview {
@@ -52,4 +70,8 @@ img.preview {
     width: 50px;
     height: 50px;
   }
+}
+
+main {
+  background-color: #F5F5F5;
 }
