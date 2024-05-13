@@ -5,36 +5,19 @@
 layout: main
 ---
 
-Check out these references!
-
-<div class="list">
+<!-- <h2>Welcome!</h2> -->
+<div class="tilelist">
   {% for page in site.pages %}
     {% if page.title %}
-        <a href="{{ page.url | relative_url }}" class="tile">
-          <div class="icolumn">
+        <a href="{{ page.url | relative_url }}" class="tile icolumn">
             {% if page.thumbnail_img %}
               <img src="{{page.thumbnail_img}}" class="preview"/>
             {% endif %}
-            {{page.title}}
+            <h5>{{page.title}}</h5>
             {% if page.description %}
               <span>– {{page.description}}</span>
             {% endif %}
-          </div>
         </a>
     {% endif %}
   {% endfor %}
 </div>
-
-<!-- 
-<ul>
-    {% for page in site.pages %}
-      {% if page.title %}
-        <li>
-          <a href="{{ pub.url | relative_url }}">{{page.title}}</a>
-          {% if page.description %}
-            <span>– {{page.description}}</span>
-          {% endif %}
-        </li>
-      {% endif %}
-    {% endfor %}
-</ul> -->
