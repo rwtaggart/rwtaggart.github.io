@@ -1,0 +1,53 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/** 
+ * Publications styles
+ */
+
+@import "typography";
+
+main {
+    background-color: #F5F5F5;
+}
+
+.patentlist {
+    margin-left: 19px;
+    display: flex;
+    flex-flow: row;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.patent_card {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 5px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.patent_card:hover {
+    text-decoration: none;
+    box-shadow: 0px 8px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.patent_title {
+    // font-size: 1.1rem;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+.patent_date {
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #757575;
+    border-radius: 0 0 20px 20px;
+    padding: 0.5em;
+}
