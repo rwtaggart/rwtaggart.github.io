@@ -1,53 +1,53 @@
 ---
 layout: page
 ---
-
 <head>
-    <style>
-        .patents {
-            margin-left: 19px;
-            display: flex;
-            flex-direction: row;
-            column-gap: 30px;
-            row-gap: 30px;
-        }
-        .patent_title {
-            font-size: 1.1rem;
-        }
-        .patent_date {
-            font-size: 0.9rem;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}" />
 </head>
 <!-- List static external links to publications here -->
 {{content}}
 
 <h3>US Patents</h3>
-<div class="patents">
+<div class="patentlist">
     {% for patent in site.data.patents %}
-        <span>
-            <a class="patent_title" href="{{ patent.url }}">{{patent.title}}</a>
-            <br/> 
-            <span class="patent_date">
+        <a class="patent_card" href="{{ patent.url }}" target="_">
+            <h6 class="patent_title">{{patent.title}}</h6>
+            <div class="patent_date">
                 {{patent.date_filed}}
-            </span>
-        </span>
+            </div>
+        </a>
     {% endfor %}
 </div>
 
 <br/>
 
-<h3>Conference publications</h3>
+<h3>Conference presentations</h3>
 <!-- Then automatically render local sites in ./_publications dir -->
-<ul>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Conference</th>
+        <!-- <th>Date</th> -->
+    </tr>
     {% assign all_pubs = site.data.publications | concat: site.publications %}
     {% for pub in all_pubs %}
         {% if pub.ext_url == "none" %}
-            <li>{{pub.title}} – {{pub.conference}}</li>
+            <tr>
+                <td>{{pub.title}}</td>
+                <td>{{pub.conference}}</td>
+            </tr>
         {% elsif pub.external and pub.ext_url %}
-            <li><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a> – {{pub.conference}}</li>
+            <tr>
+                    <td><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a></td>
+                    <td>{{pub.conference}}</td>
+            </tr>
+            <!-- <li><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a> – {{pub.conference}}</li> -->
         {% else %}
-            <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a> – {{pub.conference}}</li>
+            <tr>
+                <td><a href="{{ pub.url | relative_url }}" target="_">{{pub.title}}</a></td>
+                <td>{{pub.conference}}</td>
+            </tr>
+            <!-- <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a> – {{pub.conference}}</li> -->
         {% endif %}
     {% endfor %}
-</ul>
+</table>
