@@ -4,6 +4,7 @@
 
 title: Blog
 layout: home
+published: false
 ---
 
 <!-- [publications](/pubs/) -->
