@@ -29,7 +29,7 @@ layout: page
         <th>Conference</th>
         <!-- <th>Date</th> -->
     </tr>
-    {% assign all_pubs = site.data.publications | concat: site.publications %}
+    {% assign all_pubs = site.publications | concat: site.data.publications %}
     {% for pub in all_pubs %}
         {% if pub.ext_url == "none" %}
             <tr>
