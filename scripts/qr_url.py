@@ -36,13 +36,14 @@ QRimg = QRcode.make_image(fill_color="black", back_color="white").convert('RGB')
 # Apply custom image
 img_path = './qr_imgs/linkedin_logo_white.png'
 overlay_img = Image.open(img_path)
-# overlay_img_background = Image.new(mode=overlay_img.mode, size=(overlay_img.size[0] + 10, overlay_img.size[1] + 10), color='white')
-# padding_xy = (
-#   (overlay_img_background.size[0] - overlay_img.size[0]) // 2,
-#   (overlay_img_background.size[1] - overlay_img.size[1]) // 2,
-# )
-# overlay_img_padding = Image.new(mode=overlay_img.mode, size=overlay_img.size, color='white')
-# overlay_img_background.paste(overlay_img, padding_xy)
+overlay_img_background = Image.new(mode='RGB', size=(overlay_img.size[0] + 20, overlay_img.size[1] + 20), color='#1565C0')
+padding_xy = (
+  (overlay_img_background.size[0] - overlay_img.size[0]) // 2,
+  (overlay_img_background.size[1] - overlay_img.size[1]) // 2,
+)
+# overlay_img_padding = Image.new(mode=overlay_img_background.mode, size=overlay_img.size, color='white')
+overlay_img_background.paste(overlay_img, padding_xy)
+overlay_img = overlay_img_background
 
 # new_width = 150  # px
 # width_pct = new_width / float(overlay_img.size[0])
