@@ -37,6 +37,10 @@ These were useful while building this site
   https://stackoverflow.com/a/6750911/13491265
 
 - https://github.com/jekyll/minima
+- https://github.com/jekyll/minima/blob/v2.5.1/README.md
+
+- https://shopify.github.io/liquid/basics/introduction/
+
 - https://github.com/jekyll/jekyll-sass-converter
 - https://jekyllrb.com/docs/assets/#sassscss
 
