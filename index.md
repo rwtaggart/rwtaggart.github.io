@@ -8,7 +8,7 @@ layout: main
 <!-- <h2>Welcome!</h2> -->
 <div class="tilelist">
   {% for page in site.pages %}
-    {% if page.title %}
+    {% if page.home %}
         <a href="{{ page.url | relative_url }}" class="tile icolumn">
             {% if page.thumbnail_img %}
               <img src="{{page.thumbnail_img}}" class="preview"/>
