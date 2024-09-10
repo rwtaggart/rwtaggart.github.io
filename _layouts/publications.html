@@ -23,35 +23,35 @@ layout: page
 <!-- Then automatically render local sites in ./_publications dir -->
 <table>
     <colgroup>
+        <col span="1" style="width: 20%;">
+        <col span="1" style="width: 20%;">
         <col span="1" style="width: 60%;">
-        <col span="1" style="width: 20%;">
-        <col span="1" style="width: 20%;">
      </colgroup>
     <tr>
-        <th>Title</th>
+        <th class="date">Date</th>
         <th>Conference</th>
-        <th>Date</th>
+        <th>Title</th>
     </tr>
     {% assign all_pubs = site.publications | concat: site.data.publications %}
     {% for pub in all_pubs %}
         {% if pub.ext_url == "none" %}
             <tr>
-                <td>{{pub.title}}</td>
+                <td class="date">{{pub.date_str}}</td>
                 <td>{{pub.conference}}</td>
-                <td>{{pub.date_str}}</td>
+                <td>{{pub.title}}</td>
             </tr>
         {% elsif pub.external and pub.ext_url %}
             <tr>
-                    <td><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a></td>
-                    <td>{{pub.conference}}</td>
-                    <td>{{pub.date_str}}</td>
+                <td class="date">{{pub.date_str}}</td>
+                <td>{{pub.conference}}</td>
+                <td><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a></td>
             </tr>
             <!-- <li><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a> – {{pub.conference}}</li> -->
         {% else %}
             <tr>
-                <td><a href="{{ pub.url | relative_url }}" target="_">{{pub.title}}</a></td>
+                <td class="date">{{pub.date_str}}</td>
                 <td>{{pub.conference}}</td>
-                <td>{{pub.date_str}}</td>
+                <td><a href="{{ pub.url | relative_url }}" target="_">{{pub.title}}</a></td>
             </tr>
             <!-- <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a> – {{pub.conference}}</li> -->
         {% endif %}
