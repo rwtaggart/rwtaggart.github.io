@@ -14,5 +14,3 @@ Richard pursued many interests throughout his career by taking on various roles 
 Richard acquired a bachelor’s degree in electrical engineering from Clarkson University, a master’s degree in computer science from Pace University, and an AI: deep learning specialization professional certificate from Coursera. He consistently works on his communication, coaching, mentoring, and people development skills. Richard considers programming and data science as his primary interests of study, and he continues to search for ways he can integrate these fields with the automation of mundane routine habitual activities in his daily life.
 
 Richard was recently married to his wife Marissa in June 2022. In his personal time, Richard has several hobbies including skiing and music. He tries to spend as much time outdoors as possible and enjoys soccer, golf, and tennis, as well.
-
-[Contact Me](/linkedin.html)
