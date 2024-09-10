@@ -69,3 +69,10 @@ collections:
     output: true
   patents:
     output: false
+
+# Custom navigation link order
+header_pages:
+  - about.md
+  - publications.md
+  - posts.md
+  - linkedin.html
