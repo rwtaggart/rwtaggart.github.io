@@ -3,6 +3,7 @@ layout: publications
 title: My Publications
 permalink: /pubs/
 # description: |
+thumbnail_img: /assets/images/export_notes_128dp_CUSTOM_FILL0_wght400_GRAD0_opsz48.svg
 home: true
 ---
 
