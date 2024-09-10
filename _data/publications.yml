@@ -1,13 +1,15 @@
 # Publications
 - title: Enhanced Analytics and Reporting for Triage and Sign-off Timing
-  conference: 58th DAC (2021)
+  conference: 58th Design Automation Conference
+  date_str: 06 Dec. 2021
   date: 2021-12-06 16:30 -0700
   ext_url: https://www.dac.com/Portals/0/Documents/Conference/DAC58%20Onsite%20Guide_v3.pdf?ver=PzAzrEcD9k-zkYioncfDUw%3d%3d
   external: true
 
 - title: Leveraging a Custom Design Database for Timing and PD Analytics
-  conference: 57th DAC <br/>(Virtual 2020)
-  date: 2021-12-06 16:30 -0700
+  conference: 57th Design Automation Conference
+  date_str: 20 Jun. 2020
+  date: 2020-06-20 16:30 -0700
   ext_url: none
   external: true
 
