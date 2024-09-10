@@ -15,13 +15,19 @@ You can find the source code for Jekyll at GitHub:
 ## How to use
 In sandbox, run:
 ```sh
-> jekyll serve -l
+> bundle exec jekyll serve -l
 ```
 > ***Note:*** Restart `jekyll serve` after modifying `_config.yml`.
 
 ## Create a new site
 ```sh
 > jekyll new PATH
+```
+
+## Customize Theme
+Based on the `minima` theme. Show docs path for installed theme:
+```sh
+bundle show minima
 ```
 
 ## References
@@ -46,3 +52,4 @@ These were useful while building this site
 
 - https://m2.material.io/design/color/the-color-system.html
 
+- https://github.com/jekyll/minima?tab=readme-ov-file#customize-navigation-links
