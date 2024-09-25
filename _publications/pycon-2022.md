@@ -25,7 +25,7 @@ _"This talk will share our experience of incorporating modern free open-source s
 ![A C++ Data Model.png](/assets/images/DD - A C++ Data Model.png)
 
 The image above is an excerpt from the full presentation which is available here:  
-[Custom CPython Data Model.pdf](/assets/files/Custom CPython Data Model - v5.pdf)
+[Custom CPython Data Model.pdf](/assets/files/Custom C Python Data Model.pdf)
 
 
 #### Presentation Recording
