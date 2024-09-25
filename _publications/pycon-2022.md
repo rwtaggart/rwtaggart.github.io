@@ -31,8 +31,9 @@ The image above is an excerpt from the full presentation which is available here
 #### Presentation Recording
 <!-- Original size: 560x315 -->
 <!-- class="player_view" -->
+
 <div>
-<iframe src="https://www.youtube.com/embed/mbssZpB7U50?si=6toeWhYZGy4h161k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/mbssZpB7U50?si=6toeWhYZGy4h161k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div class="spacer"></div>
