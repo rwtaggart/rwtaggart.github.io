@@ -44,14 +44,14 @@ layout: page
             <tr>
                 <td class="date">{{pub.date_str}}</td>
                 <td>{{pub.conference}}</td>
-                <td><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a></td>
+                <td><a href="{{ pub.ext_url }}" target="_">{{pub.conference_title}}</a></td>
             </tr>
             <!-- <li><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a> – {{pub.conference}}</li> -->
         {% else %}
             <tr>
                 <td class="date">{{pub.date_str}}</td>
                 <td>{{pub.conference}}</td>
-                <td><a href="{{ pub.url | relative_url }}" target="_">{{pub.title}}</a></td>
+                <td><a href="{{ pub.url | relative_url }}" target="_">{{pub.conference_title}}</a></td>
             </tr>
             <!-- <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a> – {{pub.conference}}</li> -->
         {% endif %}

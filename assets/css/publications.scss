@@ -65,3 +65,29 @@ main {
 .date {
     text-align:right;
 }
+
+.player_view {
+    // Original size: 560x315
+    width: 730px;
+    height: 410px;
+}
+
+@media all and (max-width: 800px) {
+    .player_view {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .player_view {
+        width: 350px;
+        height: 196px;
+    }
+}
+
+.quote-author {
+    color: #757575;
+    text-align:right;
+    font-style: italic;
+}
