@@ -32,28 +32,32 @@ layout: page
         <th>Conference</th>
         <th>Title</th>
     </tr>
-    {% assign all_pubs = site.publications | concat: site.data.publications %}
+    <!-- FIXME: The where_exp filter does not work here :( -->
+    <!-- {% assign site_pubs = site.posts | where_exp: "item", "item.conference" %} -->
+    {% assign all_pubs = site.posts | concat: site.data.publications %}
     {% for pub in all_pubs %}
-        {% if pub.ext_url == "none" %}
-            <tr>
-                <td class="date">{{pub.date_str}}</td>
-                <td>{{pub.conference}}</td>
-                <td>{{pub.conference_title}}</td>
-            </tr>
-        {% elsif pub.external and pub.ext_url %}
-            <tr>
-                <td class="date">{{pub.date_str}}</td>
-                <td>{{pub.conference}}</td>
-                <td><a href="{{ pub.ext_url }}" target="_">{{pub.conference_title}}</a></td>
-            </tr>
-            <!-- <li><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a> – {{pub.conference}}</li> -->
-        {% else %}
-            <tr>
-                <td class="date">{{pub.date_str}}</td>
-                <td>{{pub.conference}}</td>
-                <td><a href="{{ pub.url | relative_url }}" target="_">{{pub.conference_title}}</a></td>
-            </tr>
-            <!-- <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a> – {{pub.conference}}</li> -->
+        {% if pub.conference %}
+            {% if pub.ext_url == "none" %}
+                <tr>
+                    <td class="date">{{pub.date_str}}</td>
+                    <td>{{pub.conference}}</td>
+                    <td>{{pub.conference_title}}</td>
+                </tr>
+            {% elsif pub.external and pub.ext_url %}
+                <tr>
+                    <td class="date">{{pub.date_str}}</td>
+                    <td>{{pub.conference}}</td>
+                    <td><a href="{{ pub.ext_url }}" target="_">{{pub.conference_title}}</a></td>
+                </tr>
+                <!-- <li><a href="{{ pub.ext_url }}" target="_">{{pub.title}}</a> – {{pub.conference}}</li> -->
+            {% else %}
+                <tr>
+                    <td class="date">{{pub.date_str}}</td>
+                    <td>{{pub.conference}}</td>
+                    <td><a href="{{ pub.url }}" target="_">{{pub.conference_title}}</a></td>
+                </tr>
+                <!-- <li><a href="{{ pub.url | relative_url }}">{{pub.title}}</a> – {{pub.conference}}</li> -->
+            {% endif %}
         {% endif %}
     {% endfor %}
 </table>
