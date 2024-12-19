@@ -1,3 +1,4 @@
+# Jekyll output & project metadata
 _site
 .sass-cache
 .jekyll-cache
@@ -8,3 +9,9 @@ sandbox
 
 # MacOS
 .DS_Store
+
+
+# Samples and materials
+scripts/qr_imgs
+backup
+assets/backup
