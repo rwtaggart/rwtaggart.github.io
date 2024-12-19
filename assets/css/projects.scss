@@ -1,0 +1,192 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/** 
+ * Publications styles
+ */
+
+@import "typography";
+
+main {
+    background-color: #F5F5F5;
+}
+
+code {
+  font-family: Consolas,Monaco,Lucida Console,Courier New, monospace;
+  font-size: 0.8em;
+  // font-size: 0.618em;
+
+  color: #c6c6c6;
+  background-color: #440044;
+  border-radius: 7px;
+  // border-color: #6f6f6f;
+}
+
+.spacer {
+    margin-top: 48px;
+}
+
+.list {
+  margin-left: 19px;
+  display: flex;
+  flex-flow: column;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.card {
+  // flex: 1;
+  // display: flex;
+  // flex-flow: column;
+  // justify-content: space-between;
+  // align-content: center;
+  // gap: 5px;
+  // text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card:hover {
+  text-decoration: none;
+  box-shadow: 0px 8px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  // font-size: 1.1rem;
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #757575;
+  border-radius: 0 0 20px 20px;
+  padding: 0.5em;
+}
+
+@media all and (max-width: 800px) {
+  .patentlist {
+      flex-flow: column nowrap;
+  }
+}
+
+.date {
+  text-align:right;
+}
+
+.tilelist {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  // flex-direction: row;
+  flex-flow: row wrap;
+  // align-items: center;
+  align-items: stretch;
+  justify-content: space-around;
+  // align-content: stretch;
+  gap: 19px;
+  /* padding-left: 100px; */
+}
+
+.tile {
+  // font-size: 1.5rem;
+  // flex: 1;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "name  link"
+    "language demo"
+    "description description"
+    "preview preview";
+  grid-auto-flow: column;
+
+  column-gap: 19px;
+  justify-items: start;
+  align-items: baseline;
+
+  // background-color: #EEEEEE;
+  background-color: #fff;
+  // border: 0.5px solid #616161;
+  border-radius: 20px;
+  // box-shadow: 10px 10px 10px 10px, 20px 20px 20px 20px red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2em;
+  // min-width: 200px;
+  // min-height: 200px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.project_title {
+  grid-area: name;
+  align-self: end;
+  font-weight: bold;
+  vertical-align: bottom;
+  margin-bottom: 0;
+  // font-size: 1.1rem;
+  // padding: 1em;
+  // padding-bottom: 0;
+}
+
+.language {
+  grid-area: language;
+  align-self: start;
+  color: #6f6f6f;
+}
+
+.demo {
+  grid-area: demo;
+  justify-self: end;
+  align-self: start;
+  display: inline-flex;
+  flex-direction: row;
+  vertical-align: bottom;
+}
+
+.ghlink {
+  grid-area: link;
+  justify-self: end;
+  align-self: end;
+  display: inline-flex;
+  flex-direction: row;
+  vertical-align: bottom;
+}
+
+.description {
+  grid-area: description;
+}
+
+img.ghmark {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+  // border-radius: 50%;
+  // object-fit: cover;
+  // object-position: 0% 0%;
+}
+
+.preview {
+  grid-area: preview;
+  // justify-self: stretch;
+}
+
+// .tile:hover {
+//   color: #1565C0;
+//   // box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.3);
+//   // rgba(0, 0, 0, 0.1)
+//   // box-shadow: 0px 4px 8px 0;
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 40px 0 rgba(0, 0, 0, 0.15);
+//   text-decoration: none;
+// }
+
+@media all and (max-width: 800px) {
+  .tilelist {
+    grid-template-columns: auto;
+    flex-flow: column nowrap;
+  }
+}

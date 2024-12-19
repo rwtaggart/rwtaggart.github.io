@@ -73,6 +73,7 @@ collections:
 # Custom navigation link order
 header_pages:
   - about.md
+  - projects.md
   - posts.md
   - publications.md
   - linkedin.html
