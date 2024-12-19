@@ -1,0 +1,37 @@
+---
+layout: page
+---
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}" />
+</head>
+<!-- List static external links to publications here -->
+{{content}}
+
+<!-- <h3>My Projects</h3> -->
+<div class="tilelist">
+    {% for project in site.data.projects %}
+    <div class="tile">
+        <h6 class="project_title">{{project.name}}</h6>
+        <p class="language">{{project.language}}</p>
+        <span class="ghlink">
+            <img src="/assets/images/GitHub-Mark-32px.png" class="ghmark"/>
+            <a href="{{ project.gh_url }}" target="_">GitHub</a>
+        </span>
+        {% if project.demo_url %}
+        <span class="demo">
+            <img src="/assets/images/play_circle_24dp_6F6F6F_FILL0_wght400_GRAD0_opsz24.png" class="ghmark" />
+            <a href="{{ project.demo_url }}" target="_">Try it now!</a>
+        </span>
+        {% endif %}
+        <p class="description">{{project.description}}</p>
+        {% if project.preview_img %}
+            <img src="{{ project.preview_img }}" class="preview"/>
+        {% endif %}
+        {% if project.preview_src %}
+            <code class="preview">
+                {{project.preview_src}}
+            </code>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

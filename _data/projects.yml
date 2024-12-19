@@ -1,0 +1,37 @@
+# Projects
+
+- name: qr-code
+  description:  Simple command-line app for generating QR codes
+  gh_url:       https://github.com/rwtaggart/qr-code
+  preview_img:  /assets/images/gh-url.png
+  language:     Python
+  
+- name: notes
+  description:  Simple command-line notes app
+  gh_url:       https://github.com/rwtaggart/notes
+  # preview_img:  /assets/images/sed-ex3.png
+  preview_src:  |-
+    > 'sed' has 2 notes:<br/>
+    &nbsp;&nbsp;0: sed 's/\\//g'  # remove escapes<br/>
+    &nbsp;&nbsp;1: sed -En 's/<(.*)>/\1/p'  # print
+  language:     Zig
+
+- name: Time Off Planner
+  description:  Simple web app for recording and planning time off and holidays.
+  gh_url:       https://github.com/rwtaggart/time-off-planner
+  demo_url:     https://www.rwtaggart.dev/time-off-planner/
+  preview_img:  /assets/images/time-off-1.png
+  language:     JavaScript
+
+- name: Common Time
+  description:  Simple web app to provide availability for a personal schedule.
+  gh_url:       https://github.com/rwtaggart/common-time
+  demo_url:     https://www.rwtaggart.dev/common-time/
+  language:     JavaScript
+  preview_img:  /assets/images/common-time-example.png
+
+# - name: kris-kringle
+#   description:  
+#   gh_url:       
+#   language:     Python
+
