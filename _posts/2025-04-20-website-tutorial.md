@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to publish a blog website"
+title:  "How to publish a website"
 date:   2025-04-20 13:48:44 -04:00
 categories: tutorials
 ---
