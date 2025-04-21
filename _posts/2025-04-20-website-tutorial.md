@@ -91,7 +91,9 @@ You will deploy your own website after completing all five of the sections below
 1. Click the "Commit changes" button and follow the onscreen prompts to save your modifications.
 1. Navigate to your Cloudflare Pages project dashboard. You should see the changes applied automatically.
 
-> See the [markdown] references in the "further reading" section below to understand the file format syntax. You can view the `_posts/YYYY-MM-DD-SAMPLE.md` file in your repository as an example for how to write markdown.
+1. You can also modify and commit changes to the `about.markdown` file to include content specific to your website!
+
+> See the [markdown](#markdown) references in the "further reading" section below to understand the file format syntax. You can view the `_posts/YYYY-MM-DD-SAMPLE.md` file in your repository as an example for how to write markdown.
 
 # Part V: Deploy your site!
 1. Navigate to your Cloudflare Pages project dashboard. 
