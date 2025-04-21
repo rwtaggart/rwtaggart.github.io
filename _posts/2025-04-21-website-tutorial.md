@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to publish a website"
-date:   2025-04-20 13:48:44 -04:00
+date:   2025-04-21 13:48:44 -04:00
 categories: tutorials
 ---
 
