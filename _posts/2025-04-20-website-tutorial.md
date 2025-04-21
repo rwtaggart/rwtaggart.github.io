@@ -12,13 +12,13 @@ Have you ever wondered how so many people are able to publish their own content?
 ---
 
 # Preface
-There are many options for deploying a free website. This tutorial uses the [Cloudflare](#cloudflare) platform to deploy a website stored in a git repository hosted on [GitHub](#github).
+There are many options available for deploying a website. This tutorial uses the [Cloudflare](#cloudflare) platform to deploy a website stored in a [git](#git) repository hosted on [GitHub](#github). Both platforms offer a free tier for hosting content.
 
-This tutorial will help you create a website by using the following platforms, frameworks, and file formats: [GitHub](#github), [Cloudflare](#cloudflare), [git](#git), [Jekyll](#jekyll), [Liquid](#liquid), [Front Matter](#front-matter), and [Markdown](#markdown). See the ["further reading"](#further-reading) section below to learn more about how each of these technologies work. It is not required to understand each of these components in detail for the purposes of this tutorial.
+This article will help you create a website by using the following platforms, frameworks, and file formats: [GitHub](#github), [Cloudflare](#cloudflare), [git](#git), [Jekyll](#jekyll), [Liquid](#liquid), [Front Matter](#front-matter), and [Markdown](#markdown). See the ["further reading"](#further-reading) section below to learn about the purpose of each dependency. It is not required to understand the details of these components for the purposes of this tutorial.
 
 > Note: GitHub provides a built-in website publishing service called [GitHub Pages](#github-pages). This is an alternate solution to Cloudflare.
 
-This tutorial is broken into five parts. You will have deployed a fully functional website after completing each of these!
+You will deploy your own website after completing all five of the sections below!
 
 ---
 
@@ -36,7 +36,8 @@ This tutorial is broken into five parts. You will have deployed a fully function
     1. Click the "create repository" button.
     1. Bookmark the URL for your new repository. You will need it later!
 
-Tutorial Reference: [Start your journey: learn the basics of GitHub](https://docs.github.com/en/get-started/start-your-journey)
+> _Tutorial reference:_  
+> [Start your journey: learn the basics of GitHub](https://docs.github.com/en/get-started/start-your-journey)
 
 
 # Part II: Deploy your website
@@ -49,7 +50,8 @@ Tutorial Reference: [Start your journey: learn the basics of GitHub](https://doc
 1. Click the "Connect to git" button.
 1. Click the "Connect GitHub" button and follow the onscreen prompts.
 
-Tutorial Reference: [Deploy with Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-jekyll-site/#deploy-with-cloudflare-pages)
+> _Tutorial reference:_  
+> [Deploy with Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-jekyll-site/#deploy-with-cloudflare-pages)
 
 
 # Part III: Customize your website settings
@@ -123,4 +125,4 @@ Tutorial Reference: [Deploy with Cloudflare Pages](https://developers.cloudflare
 
 
 <a id="markdown" />
-[**Markdown**](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) is an easy-to-read, easy-to-write language for formatting plain text. The [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) GitHub documentation is a great place to get started if you are new to the markdown format!
+[**Markdown**](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) is an easy-to-read, easy-to-write language for formatting plain text. The [basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) GitHub documentation is a great place to get started if you are new to the markdown format!
