@@ -77,3 +77,6 @@ header_pages:
   - posts.md
   - publications.md
   - linkedin.html
+
+# Set custom URL for posts and pages
+permalink: ':categories/:title'
