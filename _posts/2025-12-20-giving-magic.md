@@ -2,10 +2,9 @@
 layout: post
 title:    "The magic of giving"
 date:     2025-12-20 11:33:22 -05:00
-category: writing
 ---
 
-When I asked my wife about the meaning of Christmas she responded, “I want to teach our son it’s about sharing the gift of unconditional love without any expectations in return.” In my experience, inspiration may come from anywhere which includes my younger brothers. My youngest brother is among the most generous people I know. He has been an exceptional gift giver for as long as I can remember. He possesses an incredible innate ability to craft a special experience of celebrating those of whom are close with him. From this frame, I derived three questions based on his approach to the holidays.
+When I asked my wife about the meaning of Christmas she responded, “I want to teach our son it’s about sharing the gift of unconditional love without any expectations in return.” This answer resonated with me so deeply because I’ve seen someone live by this virtue for as long as I can remember. My youngest brother is among the most generous people I know. He has been an exceptional gift giver for his entire life. He possesses an incredible innate ability to create special celebratory experiences for those who are close to him. From this frame, I derived three basic questions based on his approach to the holidays.
 
 When considering a person for a future occasion, answer these questions:
 
