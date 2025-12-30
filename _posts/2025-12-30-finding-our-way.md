@@ -11,8 +11,8 @@ Now is the perfect time for personal reflection. It is a time for us to extend o
 
 When you’re ready, as yourself these questions:
 
-1. How do I define success?  
-   <span class=“sub”>(What does it look like? How could it feel? How will I know if I achieve it?)</span>
+1. How do I define success?
+    <span class=“sub”>What does it look like? How could it feel? How will I know if I achieve it?</span>
    
 1. What do I need to learn in order to get there?  
    (What’s the next step I need to take?)
