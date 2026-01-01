@@ -11,14 +11,14 @@ Now is the perfect time for personal reflection. It is a time for us to extend o
 
 When you’re ready, as yourself these questions:
 
-1. How do I define success?
-    <span class=“sub”>What does it look like? How could it feel? How will I know if I achieve it?</span>
+1. **How do I define success?**
+    _What does it look like? How would I feel? How will I know if I achieve it?_
    
-1. What do I need to learn in order to get there?  
-   (What’s the next step I need to take?)
+1. **What do I need to learn in order to get there?**  
+   _What’s the next step I need to take?_
    
-1. What support do I need and from whom?  
-   (Who can help me accomplish my goals? What does support look like from them?)
+1. **What support do I need and from whom?**  
+   _Who can help me accomplish my goals? What does support look like from them?_
 
 
 Use three time scales for each response:
