@@ -235,6 +235,12 @@ The Python programming language is growing in popularity as a premier programmin
 The Python development community maintains the foundation of modern artificial intelligence (AI) applications. The popularity of AI assistants is accelerating, and public perception and excitement of their potential seems boundless. 
 
 
+### Interpreters
+Python is an interpreted programming language. It requires a special program, the Python interpreter, to run. This is a prominent feature of the language, because it provides a dynamic runtime execution environment. This allows programmers to modify the program as it runs, and lazy-load modules as needed.
+
+CPython is the C-based implementation of the Python language, and it is the default and most widely used implementation. This Python interpreter is a C program. Therefore, it is compatible with other C libraries that can be packaged and installed in a Python runtime environment. This provides an excellent balance between enabling developers to create fast optimized compiled C libraries and use them with flexible dynamic Python modules. 
+
+
 ### Packaging modules
 The Python development community creates and maintains a broad set of open-source packages
 published on the Python Package Index (PyPI). This ecosystem has fueled rapid development and adoption of the language as the defacto standard for data science.
