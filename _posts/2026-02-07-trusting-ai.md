@@ -48,9 +48,9 @@ It is from this context that AI researches and developers create and deliver AI-
 1. **Data Analysis**
     1. Introducing Python
     1. Intrepreters
-    1. Packaging applications
+    1. Packaging Modules
     1. Using free open source software
-    1. Collecting information
+    1. Collecting Information
     1. Number crunching with `Pandas` and `numpy`
     1. Data visualization with `matplotlib`
     1. Analyzing data  
@@ -252,9 +252,10 @@ The Python development community maintains the foundation of modern artificial i
 Python is an interpreted programming language. It requires a special program, the Python interpreter, to run. This is a prominent feature of the language, because it provides a dynamic runtime execution environment. This allows programmers to modify the program as it runs, and lazy-load modules as needed.
 
 CPython is the C-based implementation of the Python language, and it is the default and most widely used implementation. This Python interpreter is a C program. Therefore, it is compatible with other C libraries that can be packaged and installed in a Python runtime environment. This provides an excellent balance between enabling developers to create fast optimized compiled C libraries and use them with flexible dynamic Python modules. 
+This approach is the reason Python has become so popular for rapid application development and creating proofs-of-concept.
 
 
-### Packaging modules
+### Packaging Modules
 The Python development community creates and maintains a broad set of open-source packages
 published on the Python Package Index (PyPI). This ecosystem has fueled rapid development and adoption of the language as the defacto standard for data science.
 
@@ -266,7 +267,7 @@ Ensure any software being used complies with the needs and use case being develo
 of the various open source software licenses.
 
 
-### Collecting information
+### Collecting Information
 The single most important aspect of data science is preserving data integrity.
 The quality of the source information is as important as the analysis.
 Creating a data pipeline to sanitize and organize the data is the first step of 
@@ -278,8 +279,8 @@ There are several Python packages available to implement these types of activiti
 `Pandas` and `numpy` are Python packages used for analyzing data.
 They provide native support for multiple data file formats including Microsoft Excel.
 They allow developers to write programs that operate on tabular data called "DataFrames,"
-perform basic statistical operations, and higher-order analysis.
-Furthermore, the `Pandas` package is distributed with `matplotlib` for visualizing the data loaded.
+perform basic statistical operations, and run higher-order analysis.
+Furthermore, the `Pandas` package is distributed with `matplotlib` for visualizing data.
 
 
 ### Data visualization with `matplotlib`
@@ -308,6 +309,17 @@ print("Data column names: ", df.columns)
 print("Table size: ", df.shape)
 df.plot('COL_NAME_A', 'COL_NAME_B', title="Events over time", xlabel="Time (s)", ylabel="Count")
 ```
+
+
+**Further Reading**:  
+_Docs:_ [Python](https://python.org) \|
+[Python Package Index (PyPI)](https://pypi.org) \|
+[Python tutorial](https://docs.python.org/3/tutorial/index.html)  
+_Packages:_ [pandas](https://pandas.pydata.org/) \|
+[numpy](https://numpy.org/) \|
+[matplotlib](https://matplotlib.org/)
+_Reference:_ [Open Source Initiative](https://opensource.org/licenses)
+
 
 ---
 
