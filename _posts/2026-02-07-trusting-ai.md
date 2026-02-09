@@ -30,22 +30,24 @@ It is from this context that AI researches and developers create and deliver AI-
     1. How do we mitigate the risk of making mistakes?
 
 1. **Theory of Computer Science**
-    1. Computer architecture basics
-    1. Instructions
+    1. Computer Architecture
+    1. Computer Instructions
     1. Programs
-    1. Assembly code and compilers
+    1. Assembly and Compilers
+    1. C (Programming Language)
     1. Bits, Bytes, and YotaBytes!
-    1. The binary number system
-    1. Data types and encoding
-    1. Algorithms
-    1. Data structures
-    1. Variables and functions
+    1. The Binary Number System
+    1. Data Types and Encoding
+    1. Algorithms and Data Structures
+    1. Variables and Functions
+    1. Control Flow
     1. Creating an algorithm  
         _"What is well-defined repeatable task that can I automate?"_
     1. Writing a program: "Hello, world!"
 
 1. **Data Analysis**
     1. Introducing Python
+    1. Intrepreters
     1. Packaging applications
     1. Using free open source software
     1. Collecting information
@@ -95,13 +97,13 @@ This requires understanding the fundamental behavior of digital information and 
 
 ## Theory of Computer Science
 
-### Computers
-Every computer is made from the same set of components which are used as basic building blocks: arithmetic, memory, and networking.
-Furthermore, every computer uses a predefined set of instructions that specify how to manipulate digital data.
+### Computer Architecture
+Every computer is composed of the same types of components which are used as basic building blocks: arithmetic, memory, and networking.
+Furthermore, every computer uses a predefined set of instructions that specify how to manipulate digital data stored in these components.
 More complex modules such as computer-processing units (CPUs), graphics-processing units (GPUs), tensor-processing units (TPUs), field-gate programmable arrays (FPGAs), and microcontrollers 
 are each created with a special combination of these blocks.
 The main difference between these modules are how the components are designed, and how they interact together.
-Some have more memory, some execute faster commands, and some handle higher networking data bandwidth.
+Some have more memory, some execute faster commands, and some handle higher network traffic data bandwidth.
 
 The process of creating a flexible programmable machine was invented by Allen Turing,
 which is why the computer science community refers to modern computers as _"Turing Machines."_
@@ -120,12 +122,12 @@ The memory components implement instructions that perform data manipulation oper
 The networking components implement instructions that perform inter-process and inter-computer operations: encode, decode, encrypt, decrypt, transmit, and receive.
 
 
-### Program
+### Programs
 A program is a sequence of computer instructions compiled into a particular order to manipulate information which yields a desired result.
 All programs require a user interface (UI). Some programs are designed to interact only with each other via an API request. There are two categories of user interface paradigms in practice today: graphical user interface (GUI) and terminal user interface (TUI). Most people interact with the GUI window rendered by a program. A terminal-based program would run in a dedicated program shell application such as Microsoft Windows PowerShell.
 
 
-### Assembly
+### Assembly and Compilers
 The assembly language is a basic programming language to describe a sequence of instructions to complete a task.
 Modern-day programming languages leverage program compilers to interpret abstract statements and expressions, and translate them into specific computer instructions. This is where assembly code, and machine code, byte code are used.
 The compiler that translates a set of program source code written in the assembly language syntax into machine-executable bytecode is called an "assembler."
@@ -165,27 +167,26 @@ A byte is a group of eight bits that represent a single entity, also known as a 
 
 A Yottabyte is one-septillion (i.e., 10^24) bytes, 10^24*8 bits, or 1 trillion Terabytes.
 
-Boolean algebra is the domain of mathematics that describes logic. The logical operations are "not," "and," and "or." These operations can be combined to implement more complex operations defined by integer algebra and other mathematical constructs.
+Boolean algebra is the domain of mathematics that describes logic. The basic logical operations are "not," "and," and "or." These are known as bitwise operators because the inputs and outputs of these functions are bits with possible values of either true or false. These operators can be combined to implement more complex functions described by integer algebra and other mathematical constructs.
 
 
 ### The Binary Number System
-Numbers may be encoded with multiple representations.
-The binary number system a base of 2. 
-Every digit in the place has a value of 0 or 1, and the value of the position is a power of two.
+Numbers may be encoded by using multiple representations.
+The binary number system has a base of 2. 
+Every digit in each place has a value of 0 or 1, and the value of the position is a power of two.
 Similarly, the decimal number system uses a base of 10. Valid digit values are 0-9, and each place multiples the digit by a power of 10.
 
 
 ### Data Types and Encoding
-The direct result of the relationship between these numbers systems means there is a 
-deterministic method to translate numbers between these systems.
+The direct result of the relationship between these numbers systems means there is a deterministic method to translate numbers between these systems.
 Computers use bits to store information, bits are collected in groups to store binary numbers, and decimal numbers may be translated or encoded into binary numbers.
 
-Therefore, computers have the ability to encode, decode, store, and operate on many types of data including single boolean values (true or false), binary numbers, integers, decimals, and even alphanumeric characters! Characters can be stored by using encoding rules such as ASCII or UTF-8. Each character is assigned a number which is then stored in memory.
+Therefore, computers have the ability to encode, decode, store, and operate on many types of data including single boolean bit values (true or false), binary numbers, integers, decimals, and even alphanumeric characters! Characters can be stored by using encoding rules such as ASCII or UTF-8. In this case, each character is assigned a number which is then stored in memory.
 
-Furthermore, the field of computer science defines methods for implementing various algebraic and other mathematical operations of each of these data types as instructions executed by the computer.
+Furthermore, the field of computer science defines methods for implementing various algebraic and other mathematical operations for each of these data types as instructions executed by the computer.
 
-All data stored in a computer is encoded as a digital value, where each digit is reduced to a binary value of "high" or "low." Therefore, there are natural phenomena that are 
-difficult to represent or store using a computer. 
+All data stored in a computer is encoded as a digital value, where each digit is reduced to a group of bits, where each bit has a binary value of "high" or "low."
+Therefore, there are natural phenomena that are difficult to represent or store using a computer. 
 This presents a wide range of problems to be solved.
 Further reading: representing digital and analog signals.
 
@@ -194,14 +195,22 @@ Further reading: representing digital and analog signals.
 An algorithm is a predefined complete sequence of steps.
 Computer science is the study of implementing and executing instructions to perform an algorithm. 
 Data structures are predefined constructs used to organize data in a logical manner to assist with the act of writing programs. 
-These data structures often map to mathematical constructs such as arrays, maps, and ??
+These data structures often map to mathematical constructs such as arrays, sets, and maps.
 
 
-### Variables and functions
+### Variables and Functions
 Programs can execute instructions that operate on stored instructions.
 The algorithms used specify both the order of the instructions and the nature of the data structures being operated on.
 Variables are used to denote which data are mutable and indicate which operations are valid for the type of data being stored.
 Functions are used to organize related instructions through the use of statements, expressions, and variables.
+
+
+### Control Flow
+Programming languages define control structures that allow programs to implement conditional logic.
+These structures are translated into computer instructions that allow the program to manipulate the behavior of the computer and program state.
+Control Statements or expressions are used to specify how these conditions
+affect the subsequent order of program statements and expressions executed by the program.
+Examples include "if" and "else" conditional statements, and "for" and "while" loop expressions.
 
 
 ### Creating an algorithm
@@ -223,6 +232,10 @@ int main() {
     return 0;
 }
 ```
+
+**Further reading:** 
+[C Reference](https://cppreference.com/w/c.html) \|
+[C tutorial](https://www.w3schools.com/c/index.php)
 
 
 ---
