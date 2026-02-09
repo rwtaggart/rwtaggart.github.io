@@ -68,6 +68,18 @@ It is from this context that AI researches and developers create and deliver AI-
         _"What underlying phenomena ***caused*** the observed data?"_
     1. Generating a program: "Hello, reason?"
 
+1. **Managing AI Projects**
+    1. Version Control Systems
+    1. git
+    1. GitHub
+    1. Repository
+    1. Artifact States
+    1. Local and Remote
+    1. Clone
+    1. Stage, Commit, and Push
+    1. Pull, Fetch, Merge, and Rebase
+    1. Diff
+    1. Using git in VS Code
 
 ---
 
@@ -326,11 +338,11 @@ _Reference:_ [Open Source Initiative](https://opensource.org/licenses)
 ## Using AI
 ### Prompt Engineering
 Prompt engineering is a popular buzzword associated with many generative AI (GenAI) tools.
-It implies a degree of sophistication and rigor with questionable standing.
-A more appropriate nomenclature is, "prompt composition."
+It implies a degree of sophistication and rigor which may not match reality.
+A more appropriate phrase may be, _"prompt composition."_
 This is the process of crafting a natural-language statement or expression
 which is intended to instruct a model how to act, and what content to generate.
-A prompt is the most common type of user interface to large-scale language models (LLMs) today.
+A prompt is the most common type of user interface to large-scale language models (LLMs) in use today.
 
 
 ### Large-scale language models (LLMs)
@@ -345,19 +357,19 @@ They rely on the data engineering pipeline and process to train reliable models 
 
 ### Agents
 Agentic AI represents a natural progression of AI technology.
-Agents are trained to perform a specific task, and they are invoked with a specific instruction.
+Agents are trained to perform a specific task, and they are invoked with a specific instruction or prompt.
 Multiple agents may be combined to perform more complicated sets of actions.
 
 
 ### MCP
-The Model Context Protocol (MCP) is an open-source standard introduced by Anthropic in 2024 to connect AI models with external data, tools, and systems via a standardized client-server architecture. It acts as a universal bridge, allowing LLMs to securely access local files, databases, and APIs, shifting AI tools from a static knowledge paradigm to dynamic context-aware agents.
+The Model Context Protocol (MCP) is an open-source standard introduced by Anthropic in 2024 to connect AI models with external data, tools, and systems via a standardized client-server architecture. It acts as a universal bridge, allowing LLMs to securely access local files, databases, and APIs, shifting AI tools from a static knowledge paradigm to dynamic context-aware agents. MCP is a core factor causing the explosion of compatible AI agents and models and is fueling the rapid development and adoption of agentic AI.
 
 
 ### Creating with VS Code
 Visual Studio Code is a text editor used by software developers to write software source code.
 With the rapid adoption of AI tools, more developers are using the
 "vibe-coding" technique to co-create code with AI by combining
-prompt composition and software development.
+prompt composition and software development techniques.
 Many AI assistants and agents integrate directly with VS Code with extensions.
 
 
@@ -365,20 +377,20 @@ Many AI assistants and agents integrate directly with VS Code with extensions.
 The real magic happens when an error, mistake, or problem is found in generated content.
 Determining how to set well-defined guardrails and constraints for AI tools will
 help create a correct-by-construction environment.
-In the event of identifying problems, identify ways to help guide the AI system
-to automatically identify and correct the error.
-This process of iterative troubleshooting is both the most frustrating and rewarding aspect of software development.
+In the event of identifying problems, we must figure out ways to help guide the AI system,
+so it can automatically identify and correct the error.
+This process of iterative troubleshooting is both the most frustrating and most rewarding aspect of software development.
 
 
-### Intrepreting data
+### Intrepreting Data
 This is a practical example. Ask yourself the question,
 _"What underlying phenomena **caused** the data observed?"_
-Try this approach, identify a dataset to analyze, which may be the data set chosen from the example in the previous chapter.
+To answer this question, first identify a dataset to analyze; it may be the data set chosen from the example in the previous chapter.
 Use the data analysis techniques specified to perform an initial 
-analysis of the data. Then ask yourself these questions,
+analysis of the data, and create a mental model of the problem. Then ask yourself these questions,
 _"How can I prompt an AI assistant to analyze the data and interpret the results?"_
 _"How can I use an AI assistant or agent to generate a program that will help  me uncover new insights that may not be obvious to me now?"_
-
+_"What will I need to troubleshoot problems or errors that I discover in the genreated content?"_
 
 ### Generating a program: "hello, _reason_?"
 With a data set in mind, compose a prompt to help you solve a problem.
@@ -393,6 +405,135 @@ With a data set in mind, compose a prompt to help you solve a problem.
 > Load the generated artifacts and create an executive summary describing the relationship between the data,
 > and generate a set of recommendations for the next set of actions.
 > List the assumptions implied by the dataset analysis, and enumerate a list of questions to consider.
+
+
+
+
+**Further reading:**
+[VS Code](https://code.visualstudio.com/) \|
+[VS Code – Extensions Marketplace](https://marketplace.visualstudio.com/VSCode) \|
+[Cline – VS Code AI Extension](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev)
+
+
+---
+
+## Managing AI Projects
+With the adoption of AI assistants, managing versions of content is becoming ever more important.
+AI projects require an established mechanism for reverting changes generated by automation.
+Furthermore, understanding changes and tracking over time is an essential need.
+
+
+### Version Control Systems
+Creating, modifying, managing, and distributing shared content requires both effective collaboration and a rigorous mechanism for merging multiple contributions and modifications from multiple sources.
+The software development community first encountered this problem since the introduction of network-based computing in the 1970s.
+Since then the necessity of asynchronous collaboration has compounded in the age of digital information.
+The answer to this problem is a version control system.
+
+There are many version control systems and programs available for many use cases across industries.
+The vast majority of free open-source software projects and communities have adopted git.
+Version Control Systems (VCS) provide a solution that implements Source Code Management (SCM). Many developers use these terms interchangeably.
+
+
+### git
+git is the de facto standard for managing versions of source code and artifacts of a project. It is a version control system popular amongst programmers for storing the complete revision history of a program. Over the past decade, it has also become popular among website content creators to keep a history of website content revisions over time. The most common method for using git is via a command-line terminal program. See this [git handbook](https://docs.github.com/en/get-started/using-git/about-git) for more information on the typical usage.
+
+git implements the distributed repository paradigm.
+Every instance, or "clone" of the repository contains a complete set of the revision history.
+This provides multiple benefits, including 
+supporting offline development,
+saving asynchronous changes,
+and creating private local experiments.
+
+git assumes it is the single source of truth.
+Therefore it expects to retain and manage all versions of an artifact managed by git.
+It is difficult to ensure coherency between artifacts stored in git and stored elsewhere. In other words, all versions of a file should be committed to the git repository, in order to capture all versions of the artifact.
+
+The git program is a terminal user interface (TUI) that allows a user to perform git commands via a command-line execution shell program.
+See the [git command reference](https://git-scm.com/docs) documentation for details of the available commands.
+
+
+### GitHub
+GitHub is a Microsoft cloud platform for storing and archiving git repositories. All content for a given project should be stored in a single git repository.
+
+
+### Repository
+A git repository is the storage location for managed files.
+It contains a collection of "git refs" stored in the "git object database."
+A git repository contains the complete revision history of the files managed.
+git objects are used to store the repository revision history worktree.
+A repository may contain multiple worktrees in the form of branches.
+
+_Important note:_ git commit objects are immutable. Revisions can not be changed without modifying downstream child commit objects.
+
+
+### Artifact States
+git assigns three possible states for managed files:
+_modified, staged,_ and _committed._
+
+git uses files and directories (i.e., _"folders"_) to manage the files in each of these three states.
+The _working directory_ contains the current active files with the latest version of the files being developed.
+This is the current project directory.
+
+git keeps track of the "staged" files in the "staging area." This is accessible via the git commands below.
+
+git stores all committed file versions in the repository in the .git directory located as a subdirectory in the active project directory. Developers should only interact with the .git directory by using the commands provided by the git program.
+
+
+### Local and Remote
+git is a distributed version control system.
+git commands operate on a local copy (i.e., "clone") of the repository.
+git can also interact with remote repositories such as repositories hosted on GitHub.
+
+
+### Clone
+Clone is the act of creating a local copy from a remote repository.
+For example, a developer would download a local copy of a remote GitHub repository with the `git clone` command.
+
+
+### Stage, Commit, and Push
+
+| Command | Action |
+| --: | --- |
+| `git add` | Add untracked files or unstaged changes to the staging area. |
+| `git commit` | Commit staged changes and files to the repository history worktree |
+| `git push` | Push local commit branch worktree to the remote branch. |
+
+
+### Pull, Fetch, Merge, and Rebase
+
+| Command | Action |
+| --: | --- |
+| `git pull` | Perform a `git fetch` followed by `git merge` or `git rebase`. |
+| `git fetch` | Fetch changes from a remote repository without modifying any local branches. |
+| `git merge` | Join two git branch histories together. |
+| `git rebase` | Apply changes from one branch onto the tip of another. |
+
+See the _Combine Diverged Branches_ section of the [Git Cheat Sheet](https://git-scm.com/cheat-sheet) for examples on the differences between `merge` and `rebase`.
+
+
+### Diff
+git provides basic and advanced methods for viewing change differences between commit "patches" of files. See the _"Checking the Status of Your Files"_ section of the [Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) for examples.
+
+
+### Using git in VS Code
+VS Code provides built-in support for managing source code with git repositories. The VS Code docs provide more details on how to interact with git
+in the VS Code editor.
+This is one example of many graphical user interfaces (GUIs) that allow 
+users to interact with git repositories and perform git actions, without requiring a command-line interface (CLI).
+
+The VS Code git interface provides an intuitive method for executing git commands.
+
+
+**Further Reading:**  
+[git (docs)](https://git-scm.org) \|
+[git (command reference)](https://git-scm.com/docs) \|
+[git (about)](https://docs.github.com/en/get-started/using-git/about-git) \|
+[Pro Git book](https://git-scm.com/book/en/v2) \|
+[git (glossary)](https://git-scm.com/docs/gitglossary) \|
+[git handbook](https://docs.github.com/en/get-started/using-git/about-git) \|
+[GitHub](https://github.com) \|
+[git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+
 
 <br/>
 <strong class="center">\* \* \*</strong>
