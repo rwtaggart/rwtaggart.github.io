@@ -34,7 +34,13 @@ Review your answers to these questions 2-3 times per year. Make adjustments as y
 2. How have I changed since then?
 3. Have I reached a learning plateau, and is it time to consider a pivot?
 
-Review your responses with a critical eye. Imagine yourself as the editor of your life’s narrative. If you find yourself stuck, hesitant, apprehensive, or overwhelmed, then shorten the time-scale and try again. This approach will help clarify your desires and identify your next step.
+Review your responses with a critical eye. Imagine yourself as the editor of your life’s narrative. If you find yourself stuck, hesitant, apprehensive, or overwhelmed, then shorten the time-scale and try again. This approach will help clarify your desires and identify your next step. 
+
+
+#### Declare your mission
+As a final step, capture your answers from the questions above, and write a personal mission statement.
+This should be a concise, meaningful phrase that resonates with you at a deep, personal level.
+Declaring a personal mission helps guide our decisions and ensure we make progress towards achieving our vision of success<sup>3</sup>.
 
 <br/>
 
@@ -43,25 +49,33 @@ Review your responses with a critical eye. Imagine yourself as the editor of you
 **Works cited**
 {: .works-cited}
 
-1. B. Brown, dare to lead, Penguin Random House, 2018.
-2. A. Grant, Think Again, Penguin Books, 2021.
+1. B. Brown, _dare to lead_, Penguin Random House, 2018.
+2. A. Grant, _Think Again_, Penguin Books, 2021.
+3. S. Covey, _The 7 Habits of Highly Effective People_, Free Press, 1989.
 {: .works-cited}
 
 <style>
     body {
        text-align: justify;
     }
-.sub {
-    font-size: 0.9em;
-    color: #6f6f6f;
-}
+    .sub {
+        font-size: 0.9em;
+        color: #6f6f6f;
+    }
     .author {
         color: #6f6f6f;
     }
+    h4 {
+        /* font-size: 12pt; */
+        /* font-weight: bold; */
+        margin-top: 18pt;
+        margin-bottom: 6pt;
+    }
 
-.works-cited {
-color: #6f6f6f;
-text-align: left;
-padding-left: 3ch;
-}
+    .works-cited {
+        /* font-size: 0.8em; */
+        color: #6f6f6f;
+        text-align: left;
+        padding-left: 3ch;
+    }
 </style>
