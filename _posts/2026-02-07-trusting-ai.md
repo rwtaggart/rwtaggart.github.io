@@ -6,7 +6,7 @@ category: ai
 ---
 
 A 10-hour curriculum for introducing the concepts and theory of AI, data analysis, and computer science.
-{: .sub}
+{: .sub .no-top}
 
 
 ### Preface
@@ -123,14 +123,10 @@ which is why the computer science community refers to modern computers as _"Turi
 
 ### Computer Instructions
 A computer implements a specific computer architecture, which will typically fall into two categories: reduced instruction-set computer (RISC) or complex instruction-set computer (CISC).
-Nearly every commercial computer uses a CISC architecture based processor of either x86 or Arm.
-
+Nearly every commercial computer uses a CISC processor based on the x86 architecture and instruction set. More recently, RISC processors have become more popular by using the Arm architecture and instruction set.
 A computer instruction is the atomic processing unit of a computer. An instruction corresponds to a single atomic operation.
-
 The arithmetic components implement instructions that perform mathematic operations: add, subtract, and multiply. These operate on both integer (i.e., fixed-point) and decimal (i.e. floating-point) numbers.
-
 The memory components implement instructions that perform data manipulation operations: store, move, copy, and delete.
-
 The networking components implement instructions that perform inter-process and inter-computer operations: encode, decode, encrypt, decrypt, transmit, and receive.
 
 
@@ -559,6 +555,10 @@ _Ironically, this post was created without any use of AI tools._
     }
     .sub {
         color: #808080;
+    }
+    .no-top {
+        margin-top: -18pt;
+        padding-top: 0;
     }
 
     h2 {
