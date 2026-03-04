@@ -158,7 +158,8 @@ G. Bill and Z. Clayton, "Successful Leaders Are Great Coaches," Harvard Business
         font-size: 12pt;
         font-weight: bold;
     }*/
-    h3 {
+    .post-content h3 {
+        font-size: 18pt;
         margin-top: 24pt;
         margin-bottom: 6pt;
         color: #1a5fb4;
@@ -187,5 +188,7 @@ G. Bill and Z. Clayton, "Successful Leaders Are Great Coaches," Harvard Business
         text-align: left;
         /* text-indent: -6ch; */
         padding-left: 3ch;
+        padding-right: 6ch;
+        font-size: 0.67em;
 	}
 </style>
