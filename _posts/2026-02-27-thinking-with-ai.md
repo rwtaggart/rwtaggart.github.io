@@ -8,7 +8,7 @@ category: ai
 _"Cogito, ergo sum; I think, therefore I am."_ <sup>1</sup>
 {: .headline}
 
-Is it possible René Descartes, the creator of the Cartesian coordinate system and original author of the first law of motion later published by Sir. Issac Newton, could have imagined his work would remain at the epicenter of our digital scientific revolution nearly 400 years later?
+Is it possible René Descartes, the creator of the Cartesian coordinate system and original author of the first law of motion later published by Sir Issac Newton, could have imagined his work would remain at the epicenter of our digital scientific revolution nearly 400 years later?
 We still find ourselves asking variations of the following fundamental questions.
 _What does it mean to think?_
 _How do we know what we know?_
