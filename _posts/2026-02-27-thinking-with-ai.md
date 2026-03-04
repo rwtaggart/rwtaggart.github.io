@@ -104,7 +104,7 @@ Godspeed.
 <strong class="center">\* \* \*</strong>
 
 **Author's note:**  
-My thoughts are my own, and my acts are my responsibility along with any consequences.
+My thoughts are my own, and my acts are my responsibility along with the consequences.
 I do not allow anyone to think for me,
 and I cannot imagine I will allow an AI system to do so either.
 It will take both discipline and wisdom to discern between when I should choose to offload the burden of a mundane task,
