@@ -41,7 +41,7 @@ When answering these questions, be as specific as possible. Seek evidence to que
 
 ### How did we get here?
 
-It took over 3000 years for humanity to progress from the concept of intelligent automata to creating the theoretical foundations of computer science and artificial intelligence<sup>5</sup>. It took another half-century to produce a viable deep-learning 
+It took over 2400 years for humanity to progress from the concept of intelligent automata to creating the theoretical foundations of computer science and artificial intelligence<sup>5</sup>. It took another half-century to produce a viable deep-learning 
 proof-of-concept, and a decade more to deploy a production-grade global-scale AI system<sup>2</sup>. New versions of generative AI models are released every few months. We need to pay attention. These trends are real, they are becoming more intense, and the events are occurring faster, even if their potential may be over-hyped.<sup>6</sup>
 
 Three years before ChatGPT took the world by storm in 2022, futurist Amy Webb predicted in 2019 that we would have access to generally available systems with artificial narrow intelligence by 2023; her prediction was only a year late.
@@ -50,7 +50,7 @@ There are many social, economic, and technological hurdles that our society must
 
 
 ### Who uses AI today?
-Harvard Business Review published research indicating most AI initiatives fail.<sup>8</sup>
+Harvard Business Review published research with Gartner indicating most AI initiatives fail.<sup>8</sup>
 Several sources reported slow adoption of the technology into business processes.<sup>1,9</sup>
 Most industries and companies, including engineering firms, automotive manufacturers, medical providers, and financial institutions, require a high-degree of fault-tolerance, precision, and judgement in their operations. Scaling and distributing engineering and business processes to meet the needs of enterprise-scale computing remains challenging. In the near-term, data analysis, content creation, and well-defined business process automation are likely the next targets of AI disruption.<sup>7</sup>
 
