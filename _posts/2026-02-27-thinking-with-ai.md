@@ -104,12 +104,20 @@ Godspeed.
 <strong class="center">\* \* \*</strong>
 
 **Author's note:**  
-My thoughts are my own, and my acts are my responsibility along with the consequences.
-I do not allow anyone to think for me,
-and I cannot imagine I will allow an AI system to do so either.
-It will take both discipline and wisdom to discern between when I should choose to offload the burden of a mundane task,
-instead of offloading the act of determining my intent or a desired outcome.
-We're entering a new world, and I find it exhilarating.
+My thoughts are my own. My acts and their consequences are my responsibility.
+I strive to maintain this discipline and avoid allowing others to think for me.
+I seek evidence to question and reality-check assumptions, myths, and fears.
+I feed curiosity by asking questions and practicing as a scientist:
+I test ideas and prototypes with experiments.
+<br /><br />
+It will be tempting to allow a powerful AI system to think for me and offload the burden of problem solving to an automated process.
+Falling into this trap will cause my own curiosity and motivation to whither,
+which would ultimately set me adrift. I would therefore be pulled away from my purpose and mission.
+Navigating a path around such traps will require clear boundaries, integrity,
+and wisdom. This will allow me to discern between when I choose to offload the burden of a mundane task,
+and I when avoid offloading the determination of my intent and desired outcome.
+We're entering a new world, and I find it exhilarating. 
+<br /><br />
 {: .author}
 
 <!-- ============================================================ -->
