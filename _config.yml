@@ -80,3 +80,9 @@ header_pages:
 
 # Set custom URL for posts and pages
 permalink: ':categories/:title'
+
+# Custom post series as meta-collections
+series:
+  ai:
+    title: "The nature of Artificial Intelligence"
+    url: "/ai"
