@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: series-post
 title:  "How do I learn to trust AI?"
 date:   2026-02-07 08:12:12 -04:00
 category: ai

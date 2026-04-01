@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: series-post
 title:  "Our ever-changing world"
 date:   2026-02-25 01:30:30 -04:00
 category: ai
@@ -172,7 +172,7 @@ G. Bill and Z. Clayton, "Successful Leaders Are Great Coaches," Harvard Business
         padding: 24pt;
         color: #6f6f6f;
         border-style: solid;
-        border-color: #6f6f6;
+        border-color: #6f6f6f;
         background-color: #f5f5f5;
 
         /* padding: 12pt; */

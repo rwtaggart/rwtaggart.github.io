@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: series-post
 title:  "Thinking in the age of AI"
 date:   2026-03-04 12:14:20 -04:00
 category: ai

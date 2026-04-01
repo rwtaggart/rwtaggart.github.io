@@ -1,0 +1,15 @@
+---
+# Using front matter ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "typography";
+
+.series-link {
+    font-size: 1rem;
+    margin-top: -12pt;
+    margin-bottom: 18pt;
+    // margin-left: 48pt;
+    font-style: italic;
+    color: #6a6a6a;
+}
