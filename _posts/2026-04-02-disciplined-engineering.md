@@ -1,6 +1,7 @@
 ---
 layout: series-post
-title:  "The Timeless Discipline of Engineering"
+# title:  "The Timeless Discipline of Engineering"
+title: "Disciplined Engineering"
 date:   2026-04-02 11:57:57 -04:00
 category: ai
 ---
@@ -56,7 +57,7 @@ In general, engineering design projects follow a common lifecycle pattern, as de
 <!-- {: .engineering-process} -->
 
 
-### The Value of Rigorous Engineering
+### The Enduring Values of Rigorous Engineering
 Abiding by these time-tested methods of engineering will ensure we sustain our ability to produce robust, maintainable, and scalable products, software, and systems.
 We apply these methods to all aspects of the product and platform design engineering lifecycle:
 
