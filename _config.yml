@@ -69,6 +69,8 @@ collections:
     output: true
   patents:
     output: false
+  series:
+    output: true
 
 # Custom navigation link order
 header_pages:
@@ -82,7 +84,7 @@ header_pages:
 permalink: ':categories/:title'
 
 # Custom post series as meta-collections
-series:
-  ai:
-    title: "The nature of Artificial Intelligence"
-    url: "/ai"
+series_meta:
+    ai:
+      title: "The nature of Artificial Intelligence"
+      url: "/ai"

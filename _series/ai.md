@@ -1,6 +1,7 @@
 ---
 title: <i>The nature of</i> <span class="emp">Artificial Intelligence</span>
-layout: ai
+layout: series
+series: ai
 permalink: /ai
 home: false
 ---

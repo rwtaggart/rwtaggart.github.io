@@ -10,9 +10,9 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    {% assign series = site.series[page.category] %}
+    {% assign series = site.series_meta[page.category] %}
     {%- if series -%}
-        <h3 class="series-link">Article series: <a href="{{ site.series[page.category].url }}">{{site.series[page.category].title}}</a></h3>
+        <h3 class="series-link">Article series: <a href="{{ site.series_meta[page.category].url }}">{{site.series_meta[page.category].title}}</a></h3>
     {% endif %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
