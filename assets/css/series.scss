@@ -77,5 +77,10 @@
     // justify-content: space-between;
     // align-items: self-start;
     column-gap: 48pt;
-    
+}
+
+@media all and (max-width: 800px) {
+  .post-list-grid {
+    grid: auto-flow / 1fr;
+  }
 }
