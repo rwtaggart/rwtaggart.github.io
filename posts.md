@@ -6,5 +6,7 @@ title: My Posts
 layout: home
 permalink: /posts
 thumbnail_img: /assets/images/text_snippet_128dp_CUSTOM_FILL0_wght400_GRAD0_opsz48.svg
+series_list_title: Special Topics
+list_title: All Posts
 home: true
 ---

@@ -1,0 +1,58 @@
+---
+# MODIFIED by rwt on 15-Apr-2026
+# ORIGINAL: minima-2.5.1/_layouts/home.html
+layout: default
+---
+
+<head>
+  <link rel="stylesheet" href="{{ '/assets/css/series.css' | relative_url }}" />
+</head>
+
+<div class="home">
+  <!-- {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} -->
+
+  {{ content }}
+
+  {%- if site.categories.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.series_list_title | default: "Series" }}</h2>
+    <ul class="series-list-stack">
+      {%- for c in site.categories -%}
+        {%- assign c_name = c[0] -%}
+        {%- assign series = site.series_meta[c_name] -%}
+        {%- if series -%}
+          <p>
+            <a class="series-title" href="{{ series.url }}"><i>{{ series.title }}</i></a>
+            <!-- <br/> -->
+            <span class="subtext">({{c[1].size}} articles)</span>
+          </p>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    <!-- <hr/> -->
+  {%- endif -%}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list post-list-grid">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>

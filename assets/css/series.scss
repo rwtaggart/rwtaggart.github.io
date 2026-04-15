@@ -52,3 +52,30 @@
     padding-right: 24pt;
     padding-left: 24pt;
 }
+
+.series-list-stack {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 48pt;
+    // row-gap: 12pt;
+    padding-right: 24pt;
+    padding-left: 24pt;
+}
+
+.series-title {
+    font-size: 1.33em;
+}
+
+.subtext {
+    color: #6e6e6e;
+}
+
+.post-list-grid {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    // justify-content: space-between;
+    // align-items: self-start;
+    column-gap: 48pt;
+    
+}
