@@ -39,6 +39,15 @@ linkedin_username: rich-taggart
 #  "https://www.linkedin.com/in/rich-taggart/"
 logo: "/assets/images/rc-logo.png"
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/bio_portrait.256.png
+        width: 256
+        height: 256
+
 # Build settings
 theme: minima
 
